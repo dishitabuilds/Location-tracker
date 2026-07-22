@@ -1,7 +1,7 @@
 {
   "name": "live-location-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real-time GPS location tracker with live map visualization",
   "main": "server.js",
   "scripts": {
     "start": "node .",
@@ -9,8 +9,10 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
-    "cloudflared": "^0.5.3",
     "cookie-parser": "^1.4.7",
     "express": "^4.21.1",
     "socket.io": "^4.8.1",
